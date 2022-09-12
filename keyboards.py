@@ -11,7 +11,7 @@ def generate_main_menu():
     return ReplyKeyboardMarkup([
         [KeyboardButton(text='✅ Сделать заказ')],
         [KeyboardButton(text='📒 История заказов'), KeyboardButton(text='🛒 Корзина')]
-    ])
+    ], resize_keyboard=True)
 
 
 def generate_categories_menu(categories):
